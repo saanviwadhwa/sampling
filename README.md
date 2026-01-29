@@ -91,7 +91,7 @@ on various machine learning models are summarized below:
 
 ##  Observations
 - No single sampling technique performs best for all models  
-- Under-sampling shows strong performance with ensemble models  
+- Under-sampling and NearMiss may lead to information loss and reduced performance 
 - Synthetic sampling methods perform better with linear classifiers  
 - Model performance is highly dependent on the chosen sampling method  
 
@@ -104,12 +104,14 @@ The results show that selecting an appropriate sampling strategy is model-depend
 ---
 
 ##  Project Structure
+---
 Sampling_Assignment/
 │
 ├── Creditcard_data.csv
 ├── sampling_creditcard.py
 ├── final_sampling_results.csv
 └── README.md
+---
 
 ## How to Run the Project
 ```bash
