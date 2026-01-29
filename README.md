@@ -74,16 +74,18 @@ The following classification models were trained and evaluated:
 
 ---
 
-##  Results
-The accuracy scores obtained are summarized below:
+## Results
 
-| Model | Sampling1 | Sampling2 | Sampling3 | Sampling4 | Sampling5 |
-|------|----------|----------|----------|----------|----------|
-| M1 | 50.10 | 52.24 | 63.18 | 69.23 | **70.12** |
-| M2 | 59.25 | 65.27 | **68.72** | 28.36 | 30.25 |
-| M3 | **90.45** | 72.41 | 32.17 | 42.58 | 41.85 |
-| M4 | **78.25** | 56.24 | 47.23 | 33.44 | 40.12 |
-| M5 | **81.25** | 12.85 | 57.36 | 32.25 | 52.74 |
+The accuracy scores obtained after applying different sampling techniques
+on various machine learning models are summarized below:
+
+| Model | Sampling1 (Under) | Sampling2 (Over) | Sampling3 (SMOTE) | Sampling4 (ADASYN) | Sampling5 (NearMiss) |
+|------|------------------|------------------|------------------|-------------------|---------------------|
+| M1 (SVM) | 16.67 | 71.18 | 70.09 | 69.72 | 16.67 |
+| M2 (Logistic Regression) | 33.33 | 92.79 | 91.27 | 91.29 | 33.33 |
+| M3 (Decision Tree) | 50.00 | 99.13 | 98.25 | 96.95 | 83.33 |
+| M4 (KNN) | 33.33 | 99.56 | 82.97 | 82.35 | 83.33 |
+| M5 (Random Forest) | 16.67 | 100.00 | 99.34 | 99.35 | 0.00 |
 
 ---
 
