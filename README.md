@@ -112,4 +112,4 @@ Sampling_Assignment/
 ## How to Run the Project
 ```bash
 pip install pandas scikit-learn imbalanced-learn
-python sampling_creditcard.py
+python sampling_cc.py
