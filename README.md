@@ -102,3 +102,14 @@ The results show that selecting an appropriate sampling strategy is model-depend
 ---
 
 ##  Project Structure
+Sampling_Assignment/
+│
+├── Creditcard_data.csv
+├── sampling_creditcard.py
+├── final_sampling_results.csv
+└── README.md
+
+## How to Run the Project
+```bash
+pip install pandas scikit-learn imbalanced-learn
+python sampling_creditcard.py
