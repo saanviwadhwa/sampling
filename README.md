@@ -109,7 +109,7 @@ The results show that selecting an appropriate sampling strategy is model-depend
 Sampling_Assignment/
 │
 ├── Creditcard_data.csv
-├── sampling_creditcard.py
+├── sampling_cc.py
 ├── final_sampling_results.csv
 └── README.md
 ```
