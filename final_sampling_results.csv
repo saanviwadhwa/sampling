@@ -1,0 +1,6 @@
+,Sampling1_Under,Sampling2_Over,Sampling3_SMOTE,Sampling4_ADASYN,Sampling5_NearMiss
+M1_SVM,16.67,71.18,70.09,69.72,16.67
+M2_Logistic,33.33,92.79,91.27,91.29,33.33
+M3_DecisionTree,50.0,99.13,98.25,96.95,83.33
+M4_KNN,33.33,99.56,82.97,82.35,83.33
+M5_RandomForest,16.67,100.0,99.34,99.35,0.0
